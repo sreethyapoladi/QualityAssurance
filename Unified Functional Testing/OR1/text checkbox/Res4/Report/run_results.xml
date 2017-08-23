@@ -1,0 +1,391 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>HPE MyFlight Sample Applicatio_2.Activate</Name>
+    <Description />
+    <StartTime>2017-07-23 11:08:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Window</Type>
+            <Name><![CDATA[HPE MyFlight Sample Applicatio_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Activate</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[HPE MyFlight Sample Application]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndclass]]></Name>
+            <Value><![CDATA[HwndWrapper[FlightsGUI.exe;;9836a747-f0eb-4b9d-9cec-70fef3a6f504]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is owned window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is child window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>13701beaaabb450c95bc6df28f1435bd</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>HPE MyFlight Sample Applicatio_2</Name>
+    <Description>Window</Description>
+    <StartTime>2017-07-23 11:08:07</StartTime>
+    <Duration>11</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Window</Type>
+            <Name><![CDATA[HPE MyFlight Sample Applicatio_2]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Window]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[HPE MyFlight Sample Application]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndclass]]></Name>
+            <Value><![CDATA[HwndWrapper[FlightsGUI.exe;;9836a747-f0eb-4b9d-9cec-70fef3a6f504]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is owned window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is child window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>13701beaaabb450c95bc6df28f1435bd</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"Chrome Legacy Window"</Name>
+    <Description>Text Checkpoint: captured "Go gle
+Gmail -
+m»:.'i=z.k=i
+Inbox
+Starred
+Important
+Sent Mail
+Drafts
+Junk
+More labels ▼
+Sreethya
+Hi Lewisville Girls-Re
+*© trishika: ID: 91691566
+o
+Pallavi P
+You were in a vidt
+Rajesh Saibersys
+Call u later
+sowmya reddy
+Okay
+madan kuma...", expected "Go gle
+Gmail -
+m»:.'i=z.k=i
+Inbox
+Starred
+Important
+Sent Mail
+Drafts
+Junk
+More labels w
+Sreethya
+o
+Lewisville Girls-Re
+trishika: ID: 91691566
+%
+Pallavi P
+You were in a vidt
+Rajesh Saibersys
+Call u later
+sowmya reddy
+Okay
+madan kumar, ..." Match case: OFF Exact match: OFF Ignore spaces: ON</Description>
+    <StartTime>2017-07-23 11:08:18</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Window</Type>
+            <Name><![CDATA[Google Chrome]]></Name>
+          </Object>
+          <Object>
+            <Type>WinObject</Type>
+            <Name><![CDATA[Chrome Legacy Window]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Text Checkpoint: captured "Go gle
+Gmail -
+m»:.'i=z.k=i
+Inbox
+Starred
+Important
+Sent Mail
+Drafts
+Junk
+More labels ▼
+Sreethya
+Hi Lewisville Girls-Re
+*© trishika: ID: 91691566
+o
+Pallavi P
+You were in a vidt
+Rajesh Saibersys
+Call u later
+sowmya reddy
+Okay
+madan kuma...", expected "Go gle
+Gmail -
+m»:.'i=z.k=i
+Inbox
+Starred
+Important
+Sent Mail
+Drafts
+Junk
+More labels w
+Sreethya
+o
+Lewisville Girls-Re
+trishika: ID: 91691566
+%
+Pallavi P
+You were in a vidt
+Rajesh Saibersys
+Call u later
+sowmya reddy
+Okay
+madan kumar, ..." Match case: OFF Exact match: OFF Ignore spaces: ON]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[regexpwndclass]]></Name>
+            <Value><![CDATA[Chrome_RenderWidgetHostHWND]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Text Checkpoint</Type>
+        <Captured>"Go gle
+Gmail -
+m»:.'i=z.k=i
+Inbox
+Starred
+Important
+Sent Mail
+Drafts
+Junk
+More labels ▼
+Sreethya
+Hi Lewisville Girls-Re
+*© trishika: ID: 91691566
+o
+Pallavi P
+You were in a vidt
+Rajesh Saibersys
+Call u later
+sowmya reddy
+Okay
+madan kuma..."</Captured>
+        <Expected>"Go gle
+Gmail -
+m»:.'i=z.k=i
+Inbox
+Starred
+Important
+Sent Mail
+Drafts
+Junk
+More labels w
+Sreethya
+o
+Lewisville Girls-Re
+trishika: ID: 91691566
+%
+Pallavi P
+You were in a vidt
+Rajesh Saibersys
+Call u later
+sowmya reddy
+Okay
+madan kumar, ..."</Expected>
+        <Regex>False</Regex>
+        <MatchCase>False</MatchCase>
+        <ExactMatch>False</ExactMatch>
+        <IgnoreSpaces>True</IgnoreSpaces>
+        <MaxTimeout>10</MaxTimeout>
+        <UsedTimeout>10</UsedTimeout>
+      </Checkpoint>
+      <IconKey>0ef0d0b2f8da40c8a3f41fc6a21074d2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\109df59e-cd01-4d69-b294-654767cacb15.jpeg" highlight="9,135,1903,887" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Chrome Legacy Window</Name>
+    <Description>WinObject</Description>
+    <StartTime>2017-07-23 11:08:18</StartTime>
+    <Duration>1</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Window</Type>
+            <Name><![CDATA[Google Chrome]]></Name>
+          </Object>
+          <Object>
+            <Type>WinObject</Type>
+            <Name><![CDATA[Chrome Legacy Window]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WinObject]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[regexpwndclass]]></Name>
+            <Value><![CDATA[Chrome_RenderWidgetHostHWND]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>0ef0d0b2f8da40c8a3f41fc6a21074d2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Google Chrome</Name>
+    <Description>Window</Description>
+    <StartTime>2017-07-23 11:08:18</StartTime>
+    <Duration>1</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Window</Type>
+            <Name><![CDATA[Google Chrome]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Window]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[Google Chrome]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndclass]]></Name>
+            <Value><![CDATA[Chrome_WidgetWin_1]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is owned window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is child window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>13701beaaabb450c95bc6df28f1435bd</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2017-07-23 11:08:07</StartTime>
+    <Duration>12</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>62cd01a66879486b856f6027c5d0cd4b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2017-07-23 11:08:07</StartTime>
+    <Duration>12</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>e64f9f9f28094f9ca17f438bb7956f61</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>text checkbox</Name>
+    <ToolName>HPE Unified Functional Testing</ToolName>
+    <ToolVersion>14.0</ToolVersion>
+    <Description />
+    <StartTime>2017-07-23 11:08:06</StartTime>
+    <Duration>13</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>d6c0adeb757642649e0011691997e0ab</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>-05:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>SaiSreethya</User>
+      <CpuInfo>Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>12210</TotalMemory>
+      <HostName>SREETHYA</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res4</ResultName>
+    <RunStartTime>2017-07-23 11:08:06</RunStartTime>
+    <Timezone>-05:00:00</Timezone>
+    <OrchestrationToolName>HPE Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>14.0</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>
