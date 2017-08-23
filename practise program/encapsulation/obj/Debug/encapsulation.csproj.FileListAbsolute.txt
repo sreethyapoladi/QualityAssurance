@@ -1,1 +1,2 @@
 D:\practise program\encapsulation\bin\Debug\encapsulation.exe.config
+D:\practise program\encapsulation\obj\Debug\encapsulation.csprojResolveAssemblyReference.cache

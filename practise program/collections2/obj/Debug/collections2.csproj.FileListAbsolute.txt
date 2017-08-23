@@ -1,0 +1,5 @@
+D:\practise program\collections2\bin\Debug\collections2.exe.config
+D:\practise program\collections2\bin\Debug\collections2.exe
+D:\practise program\collections2\bin\Debug\collections2.pdb
+D:\practise program\collections2\obj\Debug\collections2.exe
+D:\practise program\collections2\obj\Debug\collections2.pdb
